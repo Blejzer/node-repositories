@@ -1,0 +1,710 @@
+repo_name: Blejzer/node-repositories
+report_id: 59c8d9b649ad1a2c5915a0e830693d90
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-01T07:41:01+00:00'
+requested_by: blugavere
+provider: github
+branch: master
+detected_tools_count: 51
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Blejzer/node-repositories
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Blejzer/node-repositories
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-08 22:18:53.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/firebase-repository/package.json
+  detection_source: packages/firebase-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 15:20:53.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 2.2.10
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: ".travis.yml"
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2017-06-09 23:31:56.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 4.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:13:56.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-03 01:26:34.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  version: 2.6.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2017-07-12 13:20:27.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 3.24.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2017-07-12 13:20:27.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-02 01:28:02.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2017-10-22 15:40:59.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:33:54.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/firebase-repository/package.json
+  detection_source: packages/firebase-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 15:20:53.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-02 01:28:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Blejzer/node-repositories
+  detection_source: Repo Metadata
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:13:56.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 2.1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2017-10-21 22:47:25.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-02 01:28:02.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:18:10.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:33:54.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.16.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/ajax-repository/package-lock.json
+  detection_source: packages/ajax-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2017-07-25 02:25:26.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 18:45:43.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 5.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/firebase-repository/package-lock.json
+  detection_source: packages/firebase-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 15:20:53.000000000 Z
+- name: "@types/mongodb"
+  description: TypeScript definitions for MongoDB
+  package_url: https://www.npmjs.com/@types/mongodb
+  version: 2.2.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16884/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: "@types/mongoose"
+  description: TypeScript definitions for Mongoose
+  package_url: https://www.npmjs.com/@types/mongoose
+  version: 4.7.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16898/default_884deeafc4d4b680b6d9cb7e3759ba2db025e8e7.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:13:56.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 8.0.46
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:33:54.000000000 Z
+- name: axios-mock-adapter
+  description: Axios adapter that allows to easily mock requests
+  package_url: https://www.npmjs.com/axios-mock-adapter
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/ajax-repository/package-lock.json
+  detection_source: packages/ajax-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2017-07-25 02:25:26.000000000 Z
+- name: co-mocha
+  description: Enable support for generators in Mocha tests
+  package_url: https://www.npmjs.com/co-mocha
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16832/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/ajax-repository/package-lock.json
+  detection_source: packages/ajax-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2017-07-25 02:25:26.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: eslint-config-xo-space
+  description: ESLint shareable config for XO with 2-space indent
+  package_url: https://www.npmjs.com/eslint-config-xo-space
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16390/default_f1e46d83300118af569c79b07f85830bc788c2d1.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 18:45:43.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 18:45:43.000000000 Z
+- name: expect
+  description: This package exports the `expect` function used in [Jest]
+  package_url: https://www.npmjs.com/expect
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2017-07-12 13:20:27.000000000 Z
+- name: gulp-coveralls
+  description: Gulp plugin to submit code coverage to Coveralls
+  package_url: https://www.npmjs.com/gulp-coveralls
+  version: 0.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16429/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-exclude-gitignore
+  description: Gulp plugin to exclude file contained in .gitignore from the stream
+  package_url: https://www.npmjs.com/gulp-exclude-gitignore
+  version: 1.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16455/default_ee431b56fd1088dacc89b5f35971ce5954c5c6d3.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-istanbul
+  description: Istanbul unit test coverage plugin for gulp
+  package_url: https://www.npmjs.com/gulp-istanbul
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16133/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-line-ending-corrector
+  description: Gulp Plugin for Line Ending Corrector
+  package_url: https://www.npmjs.com/gulp-line-ending-corrector
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16677/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-mocha
+  description: Run Mocha tests
+  package_url: https://www.npmjs.com/gulp-mocha
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15960/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-nsp
+  description: A gulp module that runs Node Security check
+  package_url: https://www.npmjs.com/gulp-nsp
+  version: 2.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16451/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: ini
+  description: An ini encoder/decoder for node
+  package_url: https://www.npmjs.com/ini
+  version: 1.3.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-02 01:28:02.000000000 Z
+  vulnerabilities:
+  - name: ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse
+    cve_id: CVE-2020-7788
+    cve_url: https://github.com/advisories/GHSA-qqgx-2p2h-9c37
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.6
+- name: isparta
+  description: A code coverage tool for ES6
+  package_url: https://www.npmjs.com/isparta
+  version: 4.0.0
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16219/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/packages/mongo-repository/package-lock.json
+  detection_source: packages/mongo-repository/package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-03-17 14:13:15.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 11.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-02 01:28:02.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 6.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: blugavere
+  last_updated_on: 2016-10-02 01:28:02.000000000 Z
+  vulnerabilities:
+  - name: Remote Code Execution in pg
+    cve_id: CVE-2017-16082
+    cve_url: https://github.com/advisories/GHSA-wc9v-mj63-m9g5
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 6.2.5
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:33:54.000000000 Z
+- name: stack-trace
+  description: Get v8 stack traces as an array of CallSite objects
+  package_url: https://www.npmjs.com/stack-trace
+  version: 0.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17627/default_a2ed0e6920692a262585bcb41289d278d6e5223e.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:13:56.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:33:54.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Blejzer/node-repositories/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ben Lugavere
+  last_updated_on: 2018-11-24 16:13:56.000000000 Z
